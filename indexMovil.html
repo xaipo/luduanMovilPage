@@ -9,6 +9,11 @@
 
     <meta name="description" content="TODO">
     <meta name="author" content="TODO">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" id="pagesheet"/>
 
     <style>
         .componentContainer {
@@ -202,7 +207,7 @@ transform: scale(0.7, 0.7)">
                             <div class="transformContainer" style="-webkit-transform: scale(, );
 -moz-transform: scale(, );
 transform: scale(, )">
-                                <img src="./indexMovil_files/1.svg" style="width: 100%; height: 100%">
+                                <a href="#myPopup1" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="window" onclick="change1()"><img src="./indexMovil_files/1.svg" style="width: 100%; height: 100%"></a>
                             </div>
                         </div>
 
@@ -278,7 +283,7 @@ transform: scale(, )">
                             <div class="transformContainer" style="-webkit-transform: scale(, );
 -moz-transform: scale(, );
 transform: scale(, )">
-                                <img src="./indexMovil_files/2.svg" style="width: 100%; height: 100%">
+                                <a href="#myPopup1" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="window" onclick="change2()"> <img src="./indexMovil_files/2.svg" style="width: 100%; height: 100%"></a>
                             </div>
                         </div>
 
@@ -353,7 +358,7 @@ transform: scale(, )">
                             <div class="transformContainer" style="-webkit-transform: scale(, );
 -moz-transform: scale(, );
 transform: scale(, )">
-                                <img src="./indexMovil_files/3.svg" style="width: 100%; height: 100%">
+                                <a href="#myPopup1" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="window" onclick="change3()"><img src="./indexMovil_files/3.svg" style="width: 100%; height: 100%"></a>
                             </div>
                         </div>
 
@@ -361,7 +366,7 @@ transform: scale(, )">
                             <div class="transformContainer" style="-webkit-transform: scale(, );
 -moz-transform: scale(, );
 transform: scale(, )">
-                                <img src="./indexMovil_files/4.svg" style="width: 100%; height: 100%">
+                                <a href="#myPopup1" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="window" onclick="change4()"><img src="./indexMovil_files/4.svg" style="width: 100%; height: 100%"></a>
                             </div>
                         </div>
 
@@ -402,6 +407,74 @@ transform: scale(, )">
                     <div class=" slideContainer strut-slide-5" style="width: 1024px; height: 768px;">
                         <div class="themedArea">
 
+                            <?php
+
+                                $action=$_REQUEST['action'];
+
+                                if ($action=="")    /* display the contact form */
+
+                                    {
+
+                                                     ?>
+
+                            <form  action="" method="POST" enctype="multipart/form-data">
+
+                                <input  class="form-control" type="hidden" name="action" value="submit">
+
+                                Your name:<br>
+
+                                <input class="form-control" name="name" type="text" value="" size="30"/><br>
+
+                                Your email:<br>
+
+                                <input class="form-control" name="email" type="text" value="" size="30"/><br>
+
+                                Your message:<br>
+
+                                <textarea class="form-control" name="message" rows="7" cols="30"></textarea><br>
+
+                                <input class="form-control" type="submit" value="Send email"/>
+
+                            </form>
+
+                            <?php
+
+    }
+
+else                /* send the submitted data */
+
+    {
+
+    $name=$_REQUEST['name'];
+
+    $email=$_REQUEST['email'];
+
+    $message=$_REQUEST['message'];
+
+    if (($name=="")||($email=="")||($message==""))
+
+        {
+
+		echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+
+                            }
+
+                            else{
+
+                            $from="From: $name<$email>\r\nReturn-path: $email";
+
+                            $subject="Message sent using your contact form";
+
+                            echo($from);
+                            mail("info@luduanseeker.com.ec", $subject, $message, $email);
+
+                            echo "Email sent!";
+
+                            }
+
+                            }
+
+?>
                         </div>
 
                     </div>
@@ -424,5 +497,30 @@ transform: scale(, )">
         class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span><br><span
         class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth"></span> x <span
         class="tooltipHeight" id="vpHeight"></span></div>
+
+<div data-role="popup" id="myPopup1" class="ui-content">
+ <br><br><br>   <textarea id="mensaje" type="text" class="form-control" style="text-align: center; top:0%; font-size: x-large;" rows="5" readonly></textarea>
+</div>
+
+<script>
+
+ var change1= function (){
+     //   console.log('hola');
+     document.getElementById('mensaje').value='Miles de señales audibles llegan a nuestras bases de datos y son almacenadas ';
+ }
+ var change2= function (){
+     //  console.log('hola');
+     document.getElementById('mensaje').value='LUDUAN SEEKER a través de su algoritmos de reconocimiento de audio\n permite identificar, ordenar y clasificar las señales audibles y las convierte en información al \nalcance de nuestros clientes ';
+ }
+ var change3= function (){
+     //  console.log('hola');
+     document.getElementById('mensaje').value=' esta información Procesada es entregada al cliente final como un informe dónde el cliente puede revisarla y adaptarla a sus necesidades ';
+ }
+ var change4= function (){
+     //  console.log('hola');
+     document.getElementById('mensaje').value='LUDUAN SEEKER a través de su algoritmos de reconocimiento de audio\n permite identificar, ordenar y clasificar las señales audibles y las convierte en información al \nalcance de nuestros clientes ';
+ }
+</script>
 </body>
+
 </html>
