@@ -1,0 +1,71 @@
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="luduanseeker.com.ec" resolutions="1x" timestamp="1473091832164">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="master_a-master.css" crc="283383573" ref="index"/>
+    <file name="index.css" crc="4136501599" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index"/>
+    <file name="museutils.js" crc="531812214" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="4156477058" ref="index"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="index"/>
+    <file name="touchswipe.js" crc="4174436727" ref="index"/>
+    <file name="form_check.php" crc="373582055" ref="index"/>
+    <file name="form_throttle.php" crc="211381018" ref="index"/>
+    <file name="form_process.php" crc="6354943" ref="index"/>
+    <file name="form-u3117.php" crc="3959163023" ref="index"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="facebook.svg" crc="4255231074" ref="index"/>
+    <file name="facebook_poster_.png" crc="30179241" ref="index"/>
+    <file name="webmail.svg" crc="138900315" ref="index"/>
+    <file name="webmail_poster_.png" crc="414013972" ref="index"/>
+    <file name="u2018-4.png" crc="4259289547" ref="index"/>
+    <file name="mainpagelogo.svg" crc="4169694172" ref="index"/>
+    <file name="mainpagelogo_poster_.png" crc="73128946" ref="index"/>
+    <file name="u2024-4.png" crc="4070920896" ref="index"/>
+    <file name="u2027-4.png" crc="21433651" ref="index"/>
+    <file name="u2030-4.png" crc="488710178" ref="index"/>
+    <file name="u601-4.png" crc="3925611976" ref="index"/>
+    <file name="arrow.svg" crc="3829436252" ref="index"/>
+    <file name="arrow_poster_.png" crc="481785261" ref="index"/>
+    <file name="120.gif" crc="10036163" seo="true" ref="index"/>
+    <file name="onelines.svg" crc="273693829" ref="index"/>
+    <file name="onelines_poster_.png" crc="3947784193" ref="index"/>
+    <file name="popups.svg" crc="4219120898" ref="index"/>
+    <file name="popups_poster_.png" crc="157212526" ref="index"/>
+    <file name="u3248-6.png" crc="59295985" ref="index"/>
+    <file name="u2348-4.png" crc="3767870910" ref="index"/>
+    <file name="u3297-4.png" crc="4280973214" ref="index"/>
+    <file name="u3292-4.png" crc="3767870910" ref="index"/>
+    <file name="u3367-4.png" crc="4115017135" ref="index"/>
+    <file name="u3371-4.png" crc="3767870910" ref="index"/>
+    <file name="u3435-25.png" crc="4071496564" ref="index"/>
+    <file name="u3443-4.png" crc="3767870910" ref="index"/>
+    <file name="u3185-4.png" crc="64633842" ref="index"/>
+    <file name="u3215-4.png" crc="3973613475" ref="index"/>
+    <file name="u3242-4.png" crc="4217984921" ref="index"/>
+    <file name="u3239-5.png" crc="457308763" ref="index"/>
+    <file name="u3233-4.png" crc="4271375986" ref="index"/>
+    <file name="u3487-4.png" crc="4189139757" ref="index"/>
+    <file name="u3508-4.png" crc="144983646" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u3132.png" crc="4204206256" ref="index"/>
+    <file name="u3132-ferr.png" crc="4206333887" ref="index"/>
+    <file name="u3124.png" crc="62280843" ref="index"/>
+    <file name="u3124-ferr.png" crc="4031819828" ref="index"/>
+    <file name="u3120-17.png" crc="4292542611" ref="index"/>
+    <file name="u3120-17-r.png" crc="4235930978" ref="index"/>
+    <file name="u3120-17-m.png" crc="323492517" ref="index"/>
+    <file name="u3120-17-fs.png" crc="209891637" ref="index"/>
+    <file name="u3128.png" crc="3876400264" ref="index"/>
+    <file name="u3128-ferr.png" crc="3907140301" ref="index"/>
+    <file name="u3513-4.png" crc="179121665" ref="index"/>
+    <file name="u3694-4.png" crc="322036295" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4276067725" seo="true" mt="1473091750495" redirect="true"/>
+</manifest>

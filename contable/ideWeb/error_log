@@ -1,0 +1,3 @@
+[27-Jun-2016 12:49:27 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/luduanseekercom/public_html/contable/ideWeb/log.inout.ajax.php on line 17
+[27-Jun-2016 12:49:46 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/luduanseekercom/public_html/contable/ideWeb/log.inout.ajax.php on line 17
+[27-Jun-2016 12:50:38 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/luduanseekercom/public_html/contable/ideWeb/log.inout.ajax.php on line 17

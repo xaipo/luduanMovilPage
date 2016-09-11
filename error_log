@@ -1,0 +1,10 @@
+[10-Sep-2016 18:39:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/luduanseekercom/public_html/my-simple-php-contact-form.php:59) in /home/luduanseekercom/public_html/my-simple-php-contact-form.php on line 62
+[10-Sep-2016 18:42:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/luduanseekercom/public_html/my-simple-php-contact-form.php:71) in /home/luduanseekercom/public_html/my-simple-php-contact-form.php on line 74
+[11-Sep-2016 08:40:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'javascript' (T_STRING), expecting ',' or ';' in /home/luduanseekercom/public_html/mail.php on line 74
+[11-Sep-2016 08:40:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'javascript' (T_STRING), expecting ',' or ';' in /home/luduanseekercom/public_html/mail.php on line 74
+[11-Sep-2016 08:40:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'javascript' (T_STRING), expecting ',' or ';' in /home/luduanseekercom/public_html/mail.php on line 74
+[11-Sep-2016 08:41:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/luduanseekercom/public_html/mail.php on line 80
+[11-Sep-2016 08:42:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/luduanseekercom/public_html/mail.php on line 80
+[11-Sep-2016 08:42:09 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/luduanseekercom/public_html/mail.php on line 80
+[11-Sep-2016 08:43:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'javascript' (T_STRING), expecting ',' or ';' in /home/luduanseekercom/public_html/mail.php on line 65
+[11-Sep-2016 09:02:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/luduanseekercom/public_html/mail.php:62) in /home/luduanseekercom/public_html/mail.php on line 65
